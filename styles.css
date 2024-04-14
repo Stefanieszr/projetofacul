@@ -170,7 +170,7 @@ body{
         height: 50vh;
         width: 50vw;
         grid-template-columns: auto;
-        grid-template-rows: 15vh 10vh 10vh 0vh 20vh;
+        grid-template-rows: 12vh 10vh 10vh 0vh 20vh;
         grid-template-areas:
         "div"
         "div"
@@ -202,8 +202,17 @@ body{
     }
 
 }
+@media screen and (max-width: 500px){
+    .content-section-02{
+        background-color: var(--background-color-);
+        padding: 0vh 0vh;
+    }
+    #img-icone{
+        height: 3vh;
+    }
+}
 
-@media screen and (max-width: 1020px) and (orientation: landscape){
+@media screen and (max-width: 1200px) and (orientation: landscape){
     :root{
         --section-one-font-size-h1: 5vh;
         --input-date-width: 50vw;
