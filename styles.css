@@ -204,11 +204,16 @@ body{
 }
 @media screen and (max-width: 500px){
     .content-section-02{
+        width: 43vh;
         background-color: var(--background-color-);
         padding: 0vh 0vh;
     }
     #img-icone{
         height: 3vh;
+    }
+    :root{
+        --input-date-width: 75vw;
+        --input-width: 60vw;      
     }
 }
 
